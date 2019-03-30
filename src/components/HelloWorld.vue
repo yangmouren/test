@@ -1,5 +1,5 @@
 <template>
-  <el-row :gutter="300">
+  <el-row >
     <el-col :span="8" :offset="8">
       <div class="grid-content bg-purple-dark">
         <el-form ref="form" label-position="top" :model="form" :rules="rules" label-width="80px">
